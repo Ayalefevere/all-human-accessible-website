@@ -159,3 +159,49 @@ footer {
         }
     }
 
+    /* Het menu in de footer op mobile       */
+    .menufooter {
+        display: flex;
+        flex-direction: column;
+        margin: 50px auto;
+        gap: 30px;
+        box-sizing: border-box;
+        cursor: pointer;
+        width: 80%;
+
+        summary {
+            color: #FEB51E;
+            font-size: 23px;
+            font-weight: bold;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+
+            svg {
+                color: #FEB51E;
+                fill: currentColor;
+                width: 25px;
+                height: auto;
+            }
+
+            &:hover {
+                color: #d18b0a;
+            }
+        }
+
+        details {
+            font-size: 16px;
+            color: #F3F3F6;
+        }
+
+        a, a:visited {
+            color: #F3F3F6;
+            text-decoration: none;
+
+            &:hover {
+                color: #D1D0DB;
+                text-decoration: underline;
+            }
+        }
+    }      
+
