@@ -247,6 +247,7 @@ h1 {
             text-decoration-color:#B48EBA;
         }
 
+        .categorie0:nth-of-type(7) a span {
             text-decoration-color:#B0B64C;
         }
 
@@ -271,6 +272,41 @@ h1 {
                 }
             }
 }
+
+/* Dit is blok voor de tekenmethode  */
+    .categorieblok {
+        margin-top: 50px;
+        
+        /* Dit is voor de titels van de methodes blok */
+        .categorietitel1 {
+        background-color: #4FBBC2;
+        color: #F3F3F6;
+        font-size: 16px;
+        height: 40px;
+
+        display: flex;
+        align-items: center;    
+        justify-content: center;  
+        }
+
+        .categorieonderdeel { 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+
+            .onderdeel {
+            
+                iframe {
+                    border: 2px solid #4FBBC2;
+                }
+
+ 
+
+            }
+        }
+            
+    }
+
 
 /* FOOTER */
 
