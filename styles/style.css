@@ -156,10 +156,9 @@ h1 {
     padding: 15px;
     border: 1px solid #D1D0DB;
     gap:10px;
-    padding-right: 0;
-
+    
         /* Dit is de zoekbalk waar je kunt typen */
-        .search-input {
+        .search-input, label {
             font-size: 16px;
             outline: none;
             border: none;
@@ -179,11 +178,10 @@ h1 {
             }
 
         /* Dit is de foto search icon foto */
-        .fotosearch{
+        .fotosearch {
             width: auto;
             height: 22px;
             color: #A3A2B7;
-            margin:auto;
         }
 }
 
