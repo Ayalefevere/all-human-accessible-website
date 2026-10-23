@@ -1,3 +1,22 @@
+/* HEADER */
+
+header {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.rightheader {
+    display: flex;
+    gap: 20px;
+    
+    .searchicon {
+        height: 25px;
+    }
+}
+
 /* Hamburger menu icon op mobile */
 button {
     background-color: transparent;
