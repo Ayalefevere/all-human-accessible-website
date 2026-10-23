@@ -205,3 +205,27 @@ footer {
         }
     }      
 
+    /* Het onderste content gedeelte van de footer */
+    .footerend {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        color: #F3F3F6;
+
+        /* Dit is voor de copyright tekst */
+        p {
+            white-space: pre-line;
+        }  
+
+        /* Voor de onderste 3 stukjes tekst */
+        .ondermenu {
+            display: flex;
+            gap:50px;
+        }
+    }
+
+    
+}
+
+
