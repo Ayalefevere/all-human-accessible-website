@@ -1,0 +1,78 @@
+/* Hamburger menu icon op mobile */
+button {
+    background-color: transparent;
+    border: none;
+
+    img {
+        width: 30px;
+    }
+}
+
+/* Navigatiemenu op mobile */
+nav {
+    background-color: #F3F3F6;
+    position: fixed;
+    left: 100px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-left: 1px solid rgba(0, 0, 0, 0.122);
+    padding-left: 40px;
+
+    z-index: 1;
+    
+    translate: 100% 0%;
+    transition:translate .3s;
+
+    &.is-open {
+        translate:0% 0%;
+    }
+
+    .close {
+        padding-top: 20px;
+        padding-right: 10px;
+        position: relative;
+        right: -170px;
+        cursor: pointer;
+    }
+
+    .button {
+        display: block;
+        width: 150px;
+        background-color: #FEB51E;
+        padding: 1em;
+        text-decoration: none;
+        text-align: center;
+        color: #1D194E;
+        cursor: pointer;
+
+    &:hover {
+        color: white;
+        background-color: #d18b0a;
+    }
+    }
+
+    ul {
+        list-style: none;
+        position:relative;
+        margin-left: 0;
+        padding-left: 0px;
+
+        li {
+            font-size: 18px;
+            font-weight: bold;
+            color: #FEB51E;
+      
+        }
+
+        a, a:visited {
+            text-decoration: none;
+            color: #1D194E;
+            font-size: 16px;
+
+            &:hover {
+                color: #d18b0a;
+            }
+        }
+    }
+}
