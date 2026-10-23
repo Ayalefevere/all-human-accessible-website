@@ -117,6 +117,36 @@ nav {
 .tijdelijk {
     color: red;
 }
+
+/* Dit is voor het stukje met de pagina's bovenaan */
+.paginas {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #A3A2B7;
+
+    a, a:visited {
+        color: #A3A2B7;
+        text-decoration: none;
+
+        &:hover {
+            color:#A3A2B7 ;
+            text-decoration: underline;
+            text-decoration-color: #A3A2B7;
+            text-underline-offset: 1px;
+        }
+    }    
+
+    /* Voor de huidige pagina waar je op kijkt */
+    .pageactive {
+        color:#1D194E;
+        font-weight: bold;
+    }
+}
+
+h1 {
+    margin-top: 40px;
+}
+
 /* FOOTER */
 
 footer {
