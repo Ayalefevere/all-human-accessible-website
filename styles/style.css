@@ -80,10 +80,10 @@ nav {
         color: #1D194E;
         cursor: pointer;
 
-    &:hover {
-        color: white;
-        background-color: #d18b0a;
-    }
+        &:hover {
+            color: white;
+            background-color: #d18b0a;
+        }
     }
 
     .onderwerp {
@@ -396,7 +396,6 @@ footer {
         }
     }      
 
-    /* Het onderste content gedeelte van de footer */
     .footerend {
         display:flex;
         flex-wrap: wrap;
@@ -404,7 +403,6 @@ footer {
         text-align: center;
         color: #F3F3F6;
 
-        /* Dit is voor de copyright tekst */
         p {
             white-space: pre-line;
         }  
