@@ -46,13 +46,14 @@ button {
 nav {
     background-color: #F3F3F6;
     position: fixed;
-    left: 100px;
+    left: 120px;
     right: 0;
     top: 0;
     bottom: 0;
-    border-left: 1px solid rgba(0, 0, 0, 0.122);
+    border: 1px solid rgba(0, 0, 0, 0.122);
     padding-left: 40px;
 
+    height: 500px;
     z-index: 1;
     
     translate: 100% 0%;
@@ -68,17 +69,22 @@ nav {
         position: relative;
         right: -170px;
         cursor: pointer;
+
+        img {
+            width: 25px;
+        }
     }
 
     .button {
         display: block;
-        width: 150px;
+        width: 180px;
         background-color: #FEB51E;
         padding: 1em;
         text-decoration: none;
         text-align: center;
         color: #1D194E;
         cursor: pointer;
+        margin-top: 20px;
 
         &:hover {
             color: white;
