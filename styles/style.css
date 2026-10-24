@@ -86,23 +86,23 @@ nav {
     }
     }
 
-    ul {
-        list-style: none;
-        position:relative;
-        margin-left: 0;
-        padding-left: 0px;
+    .onderwerp {
+        display: flex;
+        flex-direction: column;
 
-        li {
-            font-size: 18px;
+        .kopje {
+            font-size: 20px;
             font-weight: bold;
             color: #FEB51E;
-      
+            margin-bottom: 0;
         }
 
         a, a:visited {
             text-decoration: none;
             color: #1D194E;
             font-size: 16px;
+            font-family: "rigid-square";
+            font-weight: bold;
 
             &:hover {
                 color: #d18b0a;
@@ -297,9 +297,6 @@ h1 {
                 iframe {
                     border: 2px solid #4FBBC2;
                 }
-
- 
-
             }
         }
             
