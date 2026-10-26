@@ -357,10 +357,37 @@ h1 {
         }
 
 
+    /* Dit is de paginanummering zodat je naar meer methodes kan switchen        */
+    .paginanummer ul {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        color: #A3A2B7;
+        font-size: 16px;
+        padding: 0;
+        margin-top: 50px;
+        width: 100%;
+        list-style: none;
+
+        /* Dit is voor de link dat je naar een andere pagina kan */
+        a, a:visited {
+            text-decoration: none;
+            color: #A3A2B7;
+
+            &:hover {
+                color: #A3A2B7;
+                text-decoration: underline;
+                text-decoration-color: #A3A2B7;
+                text-underline-offset: 1px;
             }
+        }        
+
+        /* Voor de active pagina waar je nu op zit */
+        .activepage {
+            color:#1D194E;
         }
-            
     }
+
 
 
 /* FOOTER */
