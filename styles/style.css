@@ -191,75 +191,89 @@ h1 {
         }
 }
 
-/* Om te filteren op de tekenmethodes  */
-.methodes {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 40px;
-    gap: 20px;
+.filtericon {
+    width: 70px;
+    height: 70px;
+    background-color: #1D194E;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
 
-
-    /* Dit is voor de filter icon  */
-    .categorie {
-        width: 70px;
-        height: 70px;
-        background-color: #1D194E;
-        border-radius: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        img {
-            width: 35px;
-            height: 35px;
-        }
+    img {
+        width: 35px;
+        height: 35px;
     }
+}
 
-    /* Dit is voor de methodes met foto en tekst */
+#filter {
+    border: 1px solid #D1D0DB;
+    padding: 20px;
+    z-index: 1;
+    position: sticky;
+    top: 300px;
+    left:0px;
+
+    .closed img {
+        width: 25px;
+        position: relative;
+        right:-210px;
+        cursor: pointer;
+        padding-bottom: 10px;
+    }
+   
+    .filters {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+
     .categorie0 {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        width: 90px;
+        width: 70px;
         height: auto;
 
         img {
-            height: 70px;
+            height: 50px;
             width: auto;
         }
         
         span {
             color: #1D194E;
         }
+        }
     }
-    
-    /* Dit is de styling voor de tekst underline van alle tekenmethodes */
+
+        /* Dit is de styling voor de tekst underline van alle tekenmethodes */
         .categorietekst {
             text-decoration: underline;
             text-decoration-thickness: 1.5px;
         }
 
-        .categorie0:nth-of-type(4) a span {
+        .categorie0:nth-of-type(3) a span {
             text-decoration-color:#4FBBC2;
         }
 
-        .categorie0:nth-of-type(5) a span {
+        .categorie0:nth-of-type(4) a span {
             text-decoration-color:#F96C4F;
         }
 
-        .categorie0:nth-of-type(6) a span {
+        .categorie0:nth-of-type(5) a span {
             text-decoration-color:#B48EBA;
         }
 
-        .categorie0:nth-of-type(7) a span {
+        .categorie0:nth-of-type(6) a span {
             text-decoration-color:#B0B64C;
         }
 
-        .categorie0:nth-of-type(8) a span {
+        .categorie0:nth-of-type(7) a span {
             text-decoration-color:#BD364E ;
         }
 
-        .categorie0:nth-of-type(9) a span {
+        .categorie0:nth-of-type(8) a span {
             text-decoration-color:#2F739B;
         }
 
@@ -275,7 +289,7 @@ h1 {
                     border: 0.5px solid #feb31eb6;
                 }
             }
-}
+    }
 
     /* Dit is blok voor de tekenmethode  */
     .categorieblok {
