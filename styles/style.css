@@ -277,32 +277,72 @@ h1 {
             }
 }
 
-/* Dit is blok voor de tekenmethode  */
+    /* Dit is blok voor de tekenmethode  */
     .categorieblok {
-        margin-top: 50px;
+        margin-top: 40px;
         
         /* Dit is voor de titels van de methodes blok */
-        .categorietitel1 {
-        background-color: #4FBBC2;
-        color: #F3F3F6;
-        font-size: 16px;
-        height: 40px;
-
-        display: flex;
-        align-items: center;    
-        justify-content: center;  
+        .categorietitel {
+            color: #F3F3F6;
+            font-size: 16px;
+            width: 100%;
+            height: 40px;
+            display: flex;
+            align-items: center;    
+            justify-content: center;  
+        }  
+       
+        .categoriedeel {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            align-items: start;
         }
 
-        .categorieonderdeel { 
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 10px;
+        .onderdeel {
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+        
+            iframe {
+                width: 100%;
+                margin-bottom: 20px;
+            }
 
-            .onderdeel {
-            
-                iframe {
-                    border: 2px solid #4FBBC2;
-                }
+            img {
+                width: 100%;
+                border: 2px solid #1D194E;
+            }
+
+            h3 {
+                font-size: 13px;
+                margin-top:5px;
+                margin-bottom:0;
+                font-weight: bold;
+                color: #1D194E;
+            }
+        }
+    }
+
+  
+        /* Het lukt mij niet om deze te nesten bij waar die eigenlijk hoort dus daarom onderaan. */
+        .categorieblok:nth-of-type(1) .categorietitel {
+            background-color: #4FBBC2;
+        }
+
+       .categorieblok:nth-of-type(2) .categorietitel {
+            background-color: #F96C4F;
+        }
+
+        .categorieblok:nth-of-type(1) iframe {
+            border: 3px solid #4FBBC2;
+        }
+
+        .categorieblok:nth-of-type(2) iframe {
+            border: 3px solid #F96C4F;
+        }
+
+
             }
         }
             
