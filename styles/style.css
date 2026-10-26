@@ -163,32 +163,32 @@ h1 {
     border: 1px solid #D1D0DB;
     gap:10px;
     
-        /* Dit is de zoekbalk waar je kunt typen */
-        .search-input, label {
-            font-size: 16px;
-            outline: none;
-            border: none;
-            flex-grow:1;
-        }
+    /* Dit is de zoekbalk waar je kunt typen */
+    .search-input, label {
+        font-size: 16px;
+        outline: none;
+        border: none;
+        flex-grow:1;
+    }
 
-        .searchicon2 {
-            width: auto;
-            height: 20px;
-            color: #D1D0DB;
-            fill: currentColor;
-        }
+    .searchicon2 {
+        width: auto;
+        height: 20px;
+        color: #D1D0DB;
+        fill: currentColor;
+    }
 
-            /* Voor de kleur van de zoekbalk tekst en search icon */
-            .search-input::placeholder {
-                color: #A3A2B7;
-            }
+    /* Voor de kleur van de zoekbalk tekst en search icon */
+    .search-input::placeholder {
+        color: #A3A2B7;
+    }
 
-        /* Dit is de foto search icon foto */
-        .fotosearch {
-            width: auto;
-            height: 22px;
-            color: #A3A2B7;
-        }
+    /* Dit is de foto search icon foto */
+    .fotosearch {
+        width: auto;
+        height: 20px;
+        color: #A3A2B7;
+    }
 }
 
 .filtericon {
