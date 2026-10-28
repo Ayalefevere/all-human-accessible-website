@@ -30,7 +30,8 @@ Ik heb alleen voor de header een desktop design gemaakt dus de rest ziet er nog 
 
 **Mobile**
 <img width="343" height="742" alt="mobile-designwebsite-v2 (1)" src="https://github.com/user-attachments/assets/d8611eeb-4531-4ca5-9531-13739cca7ffa" />
-<img width="341" height="741" alt="mobile-designwebsite-v2 (2)" src="https://github.com/user-attachments/assets/ba8a7e00-15b5-4bc0-98ca-29b0714a5e6c" />
+<img width="337" height="727" alt="image" src="https://github.com/user-attachments/assets/60fab94b-8022-49fc-ae8f-f765c0b70b16" />
+
 <img width="338" height="741" alt="mobile-designwebsite-v2 (3)" src="https://github.com/user-attachments/assets/caefe355-37bd-4126-b294-81afc521c0cb" />
 
 **Desktop**
@@ -65,15 +66,21 @@ In de footer staat logo, sociale media icons, menu en copyright tekst.
 **CSS**
 Alles is belangrijk, want anders kan ik mijn layout niet maken.
 
-## WCAG Audit
+## WCAG Audit 
 
-In deze issue staat de testresultaten.
-https://github.com/Ayalefevere/all-human-accessible-website/issues/4
+Hier vindt je de issue met de testresultaten: [Lighthouse testresultaten]( https://github.com/Ayalefevere/all-human-accessible-website/issues/4)
 
-Ik heb een Lighthouse test gedaan en op de home 86% en op de tekenmethodes pagina 95%.
+Ik heb alle problemen opgelost.
 
-- Probleem van de tekstcontrast op de home pagina is verbeterd.
- <img width="1883" height="697" alt="image" src="https://github.com/user-attachments/assets/614763b5-57bf-4844-babc-634809f3c468" />
+**Het probleem van de tekst contrast op de home heb ik verbeterd. Ik heb de kleur rood veranderd naar donkerblauw.**
+
+<img width="1867" height="747" alt="Image" src="https://github.com/user-attachments/assets/f6b2786a-6855-405f-9d20-bf9f83b944fc" />
+
+**Het probleem was dat de tussenkopjes in de hamburger menu te klein zijn. Ik heb de font size aangepast van 16px naar 20px net als het gele kopje. Daardoor zijn beide pagina's nu 100% toegankelijkheid.**
+<img width="1885" height="778" alt="Image" src="https://github.com/user-attachments/assets/30ad3e8d-4c01-41ab-b549-ce9e962c31dd" />
+
+<img width="1877" height="782" alt="Image" src="https://github.com/user-attachments/assets/f773959d-7891-466b-a763-6e27825bf9ca" />
+
 
 
 
