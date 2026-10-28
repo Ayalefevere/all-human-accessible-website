@@ -123,6 +123,7 @@ header {
 button {
     background-color: transparent;
     border: none;
+    cursor: pointer;
 
     img {
         width: 30px;
@@ -188,14 +189,6 @@ nav {
         display: flex;
         flex-direction: column;
 
-        #geel {
-            color: #FEB51E;
-
-            &:hover {
-                color: #d18b0a;
-            }
-        }
-
         .kopje {
             font-size: 20px;
             font-weight: bold;
@@ -204,9 +197,12 @@ nav {
             margin-top: 20px;
         }
 
+        .tussenkopje {
+            color: white;
+        }
+
         a, a:visited {
             text-decoration: none;
-            color: white;
             font-size: 16px;
             font-family: "rigid-square";
             font-weight: bold;
