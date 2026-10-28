@@ -16,7 +16,7 @@ Ontwerp en maak voor een opdrachtgever een website toegankelijk volgens WCAG ric
 
 De opdracht is om een website te ontwerpen en te maken voor een opdrachtgever. De opdrachtgeever is Charley Muhren. De vraag van de opdrachtgever is, maak een redesign van de huidige website. 
 
-Hier staat de website: [https://ayalefevere.github.io/the-client-website/](https://ayalefevere.github.io/all-human-accessible-website/)
+Hier staat de website: https://ayalefevere.github.io/all-human-accessible-website/
 
 
 ## Beschrijving
@@ -24,7 +24,9 @@ Hier staat de website: [https://ayalefevere.github.io/the-client-website/](https
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
-Dit is het design voor de website van Visual Thinking. Op de website kunnen studenten en docenten leren om hun gedachten en doelen te verbeelden. De website bestaat (op dit moment) uit 2 pagina's: home en tekenmethodes. De home pagina hoeft op dit moment niet uitgewerkt worden. Alle pagina's hebben een header en footer. Op de tekenmethodes pagina kun je filteren op de tekenmethodes en daar kun je de categorieeën bekijken die daar bij horen. De website is responsive voor mobile en beetje desktop. Ik heb alleen voor de header een desktop design gemaakt dus de rest ziet er nog niet goed uit.
+Dit is het design voor de website van Visual Thinking. Op de website kunnen studenten en docenten leren om hun gedachten en doelen te verbeelden. De website bestaat (op dit moment) uit 2 pagina's: home en tekenmethodes. De home pagina hoeft op dit moment niet uitgewerkt worden. Alle pagina's hebben een header en footer. Op de tekenmethodes pagina kun je filteren op de tekenmethodes en daar kun je de categorieeën bekijken die daar bij horen. De website is responsive voor mobile en beetje desktop. 
+
+Ik heb alleen voor de header een desktop design gemaakt dus de rest ziet er nog niet goed uit.
 
 **Mobile**
 <img width="343" height="742" alt="mobile-designwebsite-v2 (1)" src="https://github.com/user-attachments/assets/d8611eeb-4531-4ca5-9531-13739cca7ffa" />
@@ -68,7 +70,7 @@ Alles is belangrijk, want anders kan ik mijn layout niet maken.
 In deze issue staat de testresultaten.
 https://github.com/Ayalefevere/all-human-accessible-website/issues/4
 
-De website had op de home 86% en op de tekenmethodes pagina 95%.
+Ik heb een Lighthouse test gedaan en op de home 86% en op de tekenmethodes pagina 95%.
 
 - Probleem van de tekstcontrast op de home pagina is verbeterd.
  <img width="1883" height="697" alt="image" src="https://github.com/user-attachments/assets/614763b5-57bf-4844-babc-634809f3c468" />
