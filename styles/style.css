@@ -12,9 +12,6 @@ body {
     line-height: 1.4;
 }
 
-h1 {
-    color: #1D194E;
-}
 
 /* HEADER */
 
@@ -254,6 +251,7 @@ nav {
 
 h1 {
     margin-top: 40px;
+    color: #1D194E;
 }
 
 /* Dit is voor de hele search balk */
