@@ -99,13 +99,12 @@ button {
 
 /* Navigatiemenu op mobile */
 nav {
-    background-color: #F3F3F6;
+    background-color: #1D194E;
     position: fixed;
     left: 120px;
     right: 0;
     top: 0;
     bottom: 0;
-    border: 1px solid rgba(0, 0, 0, 0.122);
     padding-left: 40px;
 
     height: 500px;
@@ -144,6 +143,8 @@ nav {
         &:hover {
             color: white;
             background-color: #d18b0a;
+            transform: translateY(-2px); 
+            transition: transform 0.2s ease;
         }
     }
 
@@ -151,16 +152,25 @@ nav {
         display: flex;
         flex-direction: column;
 
+        #geel {
+            color: #FEB51E;
+
+            &:hover {
+                color: #d18b0a;
+            }
+        }
+
         .kopje {
             font-size: 20px;
             font-weight: bold;
             color: #FEB51E;
             margin-bottom: 0;
+            margin-top: 20px;
         }
 
         a, a:visited {
             text-decoration: none;
-            color: #1D194E;
+            color: white;
             font-size: 16px;
             font-family: "rigid-square";
             font-weight: bold;
