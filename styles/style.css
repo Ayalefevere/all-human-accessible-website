@@ -10,6 +10,7 @@ body {
     font-family: "rigid-square", sans-serif;
     font-size: 16px;
     line-height: 1.4;
+    overflow-x: hidden;
 }
 
 
@@ -701,8 +702,19 @@ footer {
         text-align: center;
         color: #F3F3F6;
 
+            @media (min-width: 1024px){
+                padding: 0 150px;
+                margin-top: 50px;
+                display: flex;
+                justify-content: space-between;
+            }        
+
         p {
             white-space: pre-line;
+
+            @media (min-width: 1024px) {
+                white-space: normal;
+            }            
         }  
 
         /* Voor de onderste 3 stukjes tekst */
