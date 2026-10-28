@@ -63,6 +63,12 @@ In de footer staat logo, sociale media icons, menu en copyright tekst.
 **CSS**
 Alles is belangrijk, want anders kan ik mijn layout niet maken.
 
+## WCAG Audit
+De website had op de home 86% en op de tekenmethodes pagina 95%.
+
+In deze issue staat de testresultaten.
+https://github.com/Ayalefevere/all-human-accessible-website/issues/4
+
 
 
 ## Licentie
