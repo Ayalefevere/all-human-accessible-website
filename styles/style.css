@@ -462,6 +462,23 @@ h1 {
             grid-template-columns: 1fr 1fr;
             gap: 10px;
             align-items: start;
+
+        p {
+            padding: 20px;
+            text-align: center;
+            color: #1D194E;
+            font-size: 16px;
+            width: 100%;
+        }
+
+        #turquoise {
+            background-color: #4FBBC2;
+        }
+
+        #red {
+            background-color: #F96C4F;
+        }
+
         }
 
         .onderdeel {
