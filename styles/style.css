@@ -193,16 +193,16 @@ nav {
 .paginas {
     margin-top: 40px;
     font-size: 14px;
-    color: #A3A2B7;
+    color: #1D194E;
 
     a, a:visited {
-        color: #A3A2B7;
+        color: #1D194E;
         text-decoration: none;
 
         &:hover {
-            color:#A3A2B7 ;
+            color:#1D194E;
             text-decoration: underline;
-            text-decoration-color: #A3A2B7;
+            text-decoration-color: #1D194E;
             text-underline-offset: 1px;
         }
     }    
