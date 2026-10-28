@@ -261,7 +261,7 @@ h1 {
     display: flex;
     align-items: center;
     padding: 15px;
-    border: 1px solid #D1D0DB;
+    border: 1px solid #1D194E;
     gap:10px;
     
     /* Dit is de zoekbalk waar je kunt typen */
@@ -275,20 +275,18 @@ h1 {
     .searchicon2 {
         width: auto;
         height: 20px;
-        color: #D1D0DB;
+        color: #1D194E;
         fill: currentColor;
     }
 
-    /* Voor de kleur van de zoekbalk tekst en search icon */
     .search-input::placeholder {
-        color: #A3A2B7;
+        color: #1D194E;
     }
 
-    /* Dit is de foto search icon foto */
     .fotosearch {
         width: auto;
         height: 20px;
-        color: #A3A2B7;
+        color: #1D194E;
     }
 }
 
