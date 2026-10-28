@@ -573,7 +573,6 @@ h1 {
         display: flex;
         justify-content: center;
         gap: 20px;
-        color: #A3A2B7;
         font-size: 16px;
         padding: 0;
         margin-top: 50px;
@@ -583,12 +582,12 @@ h1 {
         /* Dit is voor de link dat je naar een andere pagina kan */
         a, a:visited {
             text-decoration: none;
-            color: #A3A2B7;
+            color: #1D194E;
 
             &:hover {
-                color: #A3A2B7;
+                color: #1D194E;
                 text-decoration: underline;
-                text-decoration-color: #A3A2B7;
+                text-decoration-color: #1D194E;
                 text-underline-offset: 1px;
             }
         }        
@@ -596,6 +595,7 @@ h1 {
         /* Voor de active pagina waar je nu op zit */
         .activepage {
             color:#1D194E;
+            font-weight: bold;
         }
     }
 
