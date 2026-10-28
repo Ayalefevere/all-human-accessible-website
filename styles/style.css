@@ -301,6 +301,11 @@ h1 {
     margin-top: 20px;
     cursor: pointer;
 
+    &:hover {
+    transform: translateY(-2px); 
+    transition: transform 0.2s ease;
+    }
+
     img {
         width: 35px;
         height: 35px;
@@ -312,8 +317,13 @@ h1 {
     padding: 20px;
     z-index: 1;
     position: sticky;
-    top: 300px;
-    left:0px;
+    top: 350px;
+    left:0%;
+
+    @media (min-width: 1024px) {
+    position: sticky;
+    top: 200px;
+    }
 
     .closed img {
         width: 25px;
@@ -328,17 +338,17 @@ h1 {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;
 
+    @media (min-width: 1024px) {
+    display: flex;
+    gap: 50px;
+    }
+
     .categorie0 {
         display: flex;
         flex-direction: row;
         justify-content: center;
         width: 70px;
         height: auto;
-
-        img {
-            height: 50px;
-            width: auto;
-        }
         
         span {
             color: #1D194E;
@@ -347,12 +357,30 @@ h1 {
     }
 
         /* Dit is de styling voor de tekst underline van alle tekenmethodes */
-        .categorietekst {
+        .categorie0 img:hover {
+            transform: translateY(-2px); 
+            transition: transform 0.2s ease;
+        }        
+        
+        .categorietekst:hover {
             text-decoration: underline;
             text-decoration-thickness: 1.5px;
         }
 
-        .categorie0:nth-of-type(3) a span {
+        .categorie0:nth-of-type(1) a span:hover {
+            text-decoration-color:#feb31eb6 ;
+        }
+
+        .categorie0:nth-of-type(2) a span:hover {
+            text-decoration-color:#feb31eb6 ;
+        }
+
+        .categorie0:nth-of-type(3) img {
+           border: 1px solid #4FBBC2;
+           border-radius: 50%;
+        }
+
+        .categorie0:nth-of-type(3) a span:hover {
             text-decoration-color:#4FBBC2;
         }
 
@@ -360,22 +388,46 @@ h1 {
             text-decoration-color:#F96C4F;
         }
 
+        .categorie0:nth-of-type(4) img {
+           border: 1px solid #F96C4F;
+           border-radius: 50%;
+        }
+
         .categorie0:nth-of-type(5) a span {
             text-decoration-color:#B48EBA;
+        }
+
+        .categorie0:nth-of-type(5) img  {
+           border: 1px solid #B48EBA;
+           border-radius: 50%;
         }
 
         .categorie0:nth-of-type(6) a span {
             text-decoration-color:#B0B64C;
         }
 
+        .categorie0:nth-of-type(6) img  {
+           border: 1px solid #B0B64C;
+           border-radius: 50%;
+        }
+
         .categorie0:nth-of-type(7) a span {
             text-decoration-color:#BD364E ;
+        }
+
+        .categorie0:nth-of-type(7) img  {
+           border: 1px solid #BD364E;
+           border-radius: 50%;
         }
 
         .categorie0:nth-of-type(8) a span {
             text-decoration-color:#2F739B;
         }
 
+        .categorie0:nth-of-type(8) img {
+           border: 1px solid #2F739B;
+           border-radius: 50%;
+        }
 
         /* Dit is voor de link van de methodes */
         a, a:visited {
