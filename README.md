@@ -64,10 +64,14 @@ In de footer staat logo, sociale media icons, menu en copyright tekst.
 Alles is belangrijk, want anders kan ik mijn layout niet maken.
 
 ## WCAG Audit
-De website had op de home 86% en op de tekenmethodes pagina 95%.
 
 In deze issue staat de testresultaten.
 https://github.com/Ayalefevere/all-human-accessible-website/issues/4
+
+De website had op de home 86% en op de tekenmethodes pagina 95%.
+
+- Probleem van de tekstcontrast op de home pagina is verbeterd.
+ <img width="1883" height="697" alt="image" src="https://github.com/user-attachments/assets/614763b5-57bf-4844-babc-634809f3c468" />
 
 
 
