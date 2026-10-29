@@ -31,6 +31,8 @@ Ik heb alleen voor de header een desktop design gemaakt dus de rest ziet er nog 
 **Mobile**
 <img width="343" height="742" alt="mobile-designwebsite-v2 (1)" src="https://github.com/user-attachments/assets/d8611eeb-4531-4ca5-9531-13739cca7ffa" />
 <img width="337" height="727" alt="image" src="https://github.com/user-attachments/assets/60fab94b-8022-49fc-ae8f-f765c0b70b16" />
+<img width="342" height="745" alt="Screenshot 2026-10-29 151833" src="https://github.com/user-attachments/assets/83e893d2-43ca-4ee7-ad0c-750f6bf54581" />
+
 
 <img width="338" height="741" alt="mobile-designwebsite-v2 (3)" src="https://github.com/user-attachments/assets/caefe355-37bd-4126-b294-81afc521c0cb" />
 
