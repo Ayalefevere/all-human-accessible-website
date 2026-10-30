@@ -733,8 +733,9 @@ display: none;
         color: #F3F3F6;
 
             @media (min-width: 1024px){
-                padding: 0 150px;
-                margin-top: 50px;
+                width: 80%;
+                margin: 0 auto;
+                margin-top: 350px;
                 display: flex;
                 justify-content: space-between;
             }        
@@ -749,23 +750,23 @@ display: none;
 
         /* Voor de onderste 3 stukjes tekst */
         .ondermenu {
-            display: flex;
-            gap:50px;
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        list-style: none;
+        padding-left: 0;
+        margin-left: 0;
 
-            ul {
-                display: flex;
-                gap: 50px;
-                padding-left: 0;
-                margin-left: 0;
+        a, a:visited {
+            text-decoration: none;
+            color: #f3f3f6;
 
-                li {
-                list-style: none;
-                }
+            &:hover{
+                text-decoration: underline;
             }
-        } 
+        }
+        }
     }
-
-    
 }
 
 
