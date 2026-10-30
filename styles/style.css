@@ -660,6 +660,10 @@ footer {
         cursor: pointer;
         width: 80%;
 
+        @media (min-width: 1024px) {
+            display: none;
+        }
+
         summary {
             color: #FEB51E;
             font-size: 23px;
@@ -695,6 +699,31 @@ footer {
             }
         }
     }      
+
+.menufooterdesktop {
+display: none;
+
+@media (min-width: 1024px) {
+    display: flex;
+    gap: 100px;
+    position: absolute;
+    right: 150px;
+
+    h2 {
+        color: #FEB51E
+    }
+
+    a, a:visited {
+        text-decoration: none;
+        color: #f3f3f6;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+}
+}
 
     .footerend {
         display:flex;
