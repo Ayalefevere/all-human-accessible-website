@@ -521,6 +521,7 @@ body:has(:popover-open) main {
                 aspect-ratio: 1/1;
                 border: 2px solid #1D194E;
                 object-fit: contain;
+                mix-blend-mode: multiply;
             }
 
             h3 {
