@@ -229,7 +229,7 @@ nav {
 /* MAIN */
 
 /* Tijdelijk voor op de home pagina */
-.tijdelijk {
+.tijdelijk, a:visited {
     color: #1D194E;
 }
 
@@ -247,7 +247,6 @@ nav {
             color:#1D194E;
             text-decoration: underline;
             text-decoration-color: #1D194E;
-            text-underline-offset: 1px;
         }
     }    
 
