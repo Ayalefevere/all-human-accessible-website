@@ -182,19 +182,18 @@ nav {
     .button {
         display: block;
         width: 180px;
+        height: 55px;
         background-color: #FEB51E;
         padding: 1em;
         text-decoration: none;
         text-align: center;
         color: #1D194E;
         cursor: pointer;
-        margin-top: 20px;
+        margin-top: 30px;
 
         &:hover {
             color: #F3F3F6;
             background-color: #d18b0a;
-            transform: translateY(-2px); 
-            transition: transform 0.2s ease;
         }
     }
 
