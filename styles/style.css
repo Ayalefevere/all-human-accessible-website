@@ -156,7 +156,7 @@ nav {
     bottom: 0;
     padding-left: 40px;
 
-    height: 500px;
+    height: 530px;
     z-index: 1;
     
     translate: 100% 0%;
@@ -169,8 +169,9 @@ nav {
     .close {
         padding-top: 20px;
         padding-right: 10px;
-        position: relative;
-        right: -160px;
+        display: flex;
+        justify-content: end;
+        width: 85%;
         cursor: pointer;
 
         img {
