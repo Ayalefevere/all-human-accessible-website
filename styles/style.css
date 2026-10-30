@@ -97,8 +97,8 @@ header {
     }
     }
 
-        .buttondesktop {
-        display: none;
+    .buttondesktop {
+    display: none;
 
     @media (min-width: 1024px){
         display: flex;
@@ -107,7 +107,7 @@ header {
         background-color: #FEB51E;
         color: #1D194E;
         width: 180px;
-        height: 45px;
+        height: 55px;
         font-size: 16px;
 
         border: transparent;
@@ -115,10 +115,9 @@ header {
 
         &:hover, 
         a:hover {
-            background-color: #d18b0a;
-            color: white;
-            transform: translateY(-2px); 
-            transition: transform 0.2s ease;
+            background-color: #1D194E;
+            transition: background-color 0.5s ease;
+            color: #FEB51E;
         }
         } 
     }
