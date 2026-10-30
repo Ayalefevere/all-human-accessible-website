@@ -267,6 +267,7 @@ h1 {
     border: 1px solid #1D194E;
     gap:10px;
     
+    
     /* Dit is de zoekbalk waar je kunt typen */
     .search-input, label {
         font-size: 16px;
@@ -337,7 +338,7 @@ body:has(:popover-open) main {
 
     @media (min-width: 1024px) {
     position: sticky;
-    top: 200px;
+    top: 350px;
     }
 
     .closed {
@@ -346,7 +347,10 @@ body:has(:popover-open) main {
         width: 100%;
         padding-bottom: 30px;
         cursor: pointer;
-        padding-bottom: 10px;
+
+        @media (min-width: 1024px) {
+            width: 90%;
+        }
 
         img {
             width: 25px;
@@ -360,6 +364,7 @@ body:has(:popover-open) main {
 
     @media (min-width: 1024px) {
     display: flex;
+    justify-content: center;
     gap: 50px;
     }
 
