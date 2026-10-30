@@ -509,6 +509,11 @@ body:has(:popover-open) main {
             text-decoration: none;
             display: flex;
             flex-direction: column;
+
+            &:hover {
+               background-color: #d1d0db6b;
+               border-bottom: 5px solid #FEB51E;
+            }
         
             iframe {
                 width: 100%;
