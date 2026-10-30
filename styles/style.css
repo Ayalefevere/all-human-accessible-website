@@ -139,6 +139,13 @@ button {
     }
 }
 
+/* Zorgt ervoor dat de main geblurd word als er op hamburger menu is gedrukt dus als navigatie open is */
+body:has(nav.is-open) main {
+    filter: blur(5px);          
+    transition: filter 0.3s ease;
+    pointer-events: none; 
+}
+
 /* Navigatiemenu op mobile */
 nav {
     background-color: #1D194E;
